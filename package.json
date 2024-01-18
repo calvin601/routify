@@ -53,6 +53,10 @@
         "./tools": {
             "default": "./lib/extra/tools/index.js",
             "types": "./typings/lib/extra/tools/ssr.d.ts"
+        },
+        {
+        ".": {
+            "svelte": "./dist/index.js"
         }
     },
     "scripts": {
